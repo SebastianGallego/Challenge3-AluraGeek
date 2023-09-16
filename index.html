@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Sebastián Gallego">
+    <meta name="description" content="AluraGeek">
+    <meta name="keywords" content="AluraGeek, FrontEnd, Diseño web, html, css, bootstrap ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo -->
+    <title> Mi Portafolio</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/programacion.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Iconos Font awesone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <script defer src="./assets/js/validacion.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Sección del Menú Nav  -->
+    <section class="sectionMenu row ">
+        <div class="col-4 justify-content-start">
+            <header class="menuHeader ">
+                <img src="assets\images\vector.png" class="menuLogo">
+                <h3 class="menuTitle">Sebastián Gallego</h3>
+            </header>
+
+        </div>
+        <div class="col-8 ">
+            <nav class="menuNav col-8 justify-content-end">
+                <ul class="menuList">
+                    <li class="menuListItem"><a href="#sobreMi">Sobre mi</a></li>
+                    <li class="menuListItem"><a href="#skills">Skills</a></li>
+                    <li class="menuListItem"><a href="#hobbies">Hobbies</a></li>
+                    <li class="menuListItem"><a href="#formacion">Formación</a></li>
+                    <li class="menuListItem"><a href="#xp">Proyectos</a></li>
+                    <li class="menuListItem email"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </section>
+
+    <!-- Sección Hero -->
+    <section class="sectionHero  ">
+        <div class="containerHero container d-flex  p-4">
+
+            <div class="heroContainerBiografia col-9 text-start justify-content-center">
+                <h2 class="heroTitulo">Hola, Soy Sebastián Gallego - Desarrollador web
+                </h2>
+                <h3 class="heroSubTitulo"">Me formé en la Universidad de Quilmes y en la Universidad de Tres de
+                Febrero. <br>
+                Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.
+            </h3>
+            <ul class=" heroRedes row justify-content-center text-center">
+                    <li class="heroRedesItem col-2"><a href="https://github.com/SebastianGallego">Github <i
+                                class="fa-brands fa-github "></i> </a></li>
+                    <li class="heroRedesItem col-2"><a href="https://www.linkedin.com/in/sebastiangallego-dev/">Linkedin
+                            <i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="heroRedesItem col-2"><a href="https://www.instagram.com/stavelot1978/">Instagram <i
+                                class="fa-brands fa-instagram "></i></a></li>
+                    <li class="heroRedesItem col-2"><a href="">Curriculum <i class="fa-solid fa-file-pdf "></i></a></li>
+                    </ul>
+            </div>
+            <img class="heroProfile " src="assets\images\profile.jpg">
+
+        </div>
+    </section>
+
+
+
+    <!-- Sección sobre mi -->
+    <section class="sectionAbout" id="sobreMi">
+        <div class="aboutContainer">
+            <h3 class="aboutTitulo">Sobre mi</h3>
+            <p class="aboutParrafo">¡Hola! Soy Sebastián Gallego, tengo 45 años, vivo en Argentina.
+
+            <p class="aboutParrafo">Soy un profesional apasionado por la tecnología y las tareas manuales. Mi formación
+                como Técnico Electromecánico y mis años de estudiante de Ingeniería me han proporcionado una base sólida
+                en la creación, gestión y mantenimiento de sistemas y
+                procesos.</p>
+
+            <p class="aboutParrafo">A lo largo de mi carrera, he tenido la oportunidad de trabajar con diversas
+                empresas, brindando servicios que abarcan desde el diseño y la implementación de sistemas de control
+                industrial hasta el
+                mantenimiento de maquinaria especializada.</p>
+
+            <p class="aboutParrafo"> Además, soy un apasionado de la informática y un profesor comprometido en compartir
+                mis conocimientos con otros. Como docente de informática, he tenido la satisfacción de ayudar a mis
+                alumnos a adquirir
+                habilidades digitales fundamentales para el éxito en el mundo actual.</p>
+            <p class="aboutParrafo">Mi espíritu creativo también me ha llevado a explorar el mundo del diseño web. Como
+                estudiante de programacion, estoy constantemente aprendiendo y experimentando con nuevas técnicas y
+                tendencias para crear experiencias en línea atractivas y funcionales. En mi portafolio, encontrarás
+                ejemplos de mis proyectos
+                y logros en cada una de estas áreas.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Skills -->
+    <section class="sectionSkills" id="skills">
+        <h3 class="skillsTitulo text-center p-5">Skills</h3>
+        <div class="skillsLine row justify-content-center">
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"><i class="fa-brands fa-html5"></i></li>
+                    <li class="skillsName"> HTML 5</li>
+                </ul>
+            </div>
+
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"> <i class="fa-brands fa-square-js"></i></li>
+                    <li class="skillsName">Javascript</li>
+                </ul>
+            </div>
+
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"> <i class="fa-brands fa-css3-alt"></i> </li>
+                    <li class="skillsName">CSS</li>
+                </ul>
+            </div>
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"> <i class="fa-brands fa-bootstrap"></i> </li>
+                    <li class="skillsName">Bootstrap</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="skillsLine row justify-content-center">
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"><i class="fa-solid fa-laptop-code"></i></li>
+                    <li class="skillsName">C-sharp</li>
+                </ul>
+            </div>
+
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"> <i class="fa-brands fa-react"></i> </li>
+                    <li class="skillsName">React</li>
+                </ul>
+            </div>
+
+
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"> <i class="fa-solid fa-database"></i></li>
+                    <li class="skillsName">Mysql</li>
+                </ul>
+            </div>
+
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"> <i class="fa-brands fa-python"></i></li>
+                    <li class="skillsName">Python</li>
+                </ul>
+            </div>
+
+            <div class="skillsBox col-md-4">
+                <ul class="skillsContainer">
+                    <li class="skillsIcon"> <i class="fa-solid fa-microchip"></i></li>
+                    <li class="skillsName">Arduino</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section class="sectionHobbies " id="hobbies">
+        <h3 class="hobbiesTitulo text-center p-5">Hobbies</h3>
+        <div class="hobbiesLine row justify-content-center">
+            <div class="hobbiesBox col-md-4">
+                <ul class="hobbiesContainer">
+                    <li class="hobbiesIcon"><i class="fa-solid fa-person-hiking"></i></li>
+                    <li class="hobbiesName"> trekking</li>
+                </ul>
+            </div>
+
+            <div class="hobbiesBox col-md-4">
+                <ul class="hobbiesContainer">
+                    <li class="hobbiesIcon"> <i class="fa-solid fa-mountain-sun"></i></li>
+                    <li class="hobbiesName">Viajar</li>
+                </ul>
+            </div>
+
+            <div class="hobbiesBox col-md-4">
+                <ul class="hobbiesContainer">
+                    <li class="hobbiesIcon"> <i class="fa-solid fa-flag-checkered"></i></li>
+                    <li class="hobbiesName">Automovilismo</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="hobbiesLine row justify-content-center">
+            <div class="hobbiesBox col-md-4">
+                <ul class="hobbiesContainer">
+                    <li class="hobbiesIcon"><i class="fa-solid fa-person-swimming"></i></li>
+                    <li class="hobbiesName">Nadar</li>
+                </ul>
+            </div>
+
+            <div class="hobbiesBox col-md-4">
+                <ul class="hobbiesContainer">
+                    <li class="hobbiesIcon"> <i class="fa-solid fa-music"></i> </li>
+                    <li class="hobbiesName">Música</li>
+                </ul>
+            </div>
+            <div class="hobbiesBox col-md-4">
+                <ul class="hobbiesContainer">
+                    <li class="hobbiesIcon"> <i class="fa-solid fa-person-biking"></i> </li>
+                    <li class="hobbiesName">Mountain bike</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Sección de Formación académica -->
+    <section class="sectionFormacion text-center p-5 " id="formacion">
+        <h2 class="formacionTitulo">Formación académica</h2>
+        <div class="formacionCursos d-flex m-5 justify-content-center">
+            <div class="card m-3">
+                <img src="./assets/images/logoArg.png" class="card-img-top  m-4" alt="...">
+                <div class="cardBody ">
+                    <h5 class="cardTitle">Yo Programo</h5>
+                    <p class="cardText">Argentina Programa</p>
+
+                </div>
+            </div>
+            <div class="card m-3">
+                <img src="./assets/images/logoUntref.png" class="card-img-top" alt="...">
+                <div class="cardBody">
+                    <h5 class="cardTitle">Dip. Programación Front End</h5>
+                    <p class="cardText ">Universidad de Tres de Febrero</p>
+
+                </div>
+            </div>
+            <div class="card m-3">
+                <img src="./assets/images/logoUnqui.png" class="card-img-top" alt="...">
+                <div class="cardBody">
+                    <h5 class="cardTitle">Ing. Automatización y Control</h5>
+                    <p class="cardText">Universidad de Quilmes</p>
+
+                </div>
+            </div>
+
+            <div class="card m-3">
+                <img src="./assets/images/aluraoracle.png" class="card-img-top" alt="Logo Alura Oracle">
+                <div class="cardBody">
+                    <h5 class="cardTitle">Desarrollo Front-End</h5>
+                    <p class="cardText">Alura Latam</p>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </section>
+
+    <!-- Sección de Experiencia Profesional/Proyectos-->
+    <section class="seccionXp" id="xp">
+        <h2 class="xpSeccionTitulo  text-center p-3">Experiencia Profesional</h2>
+        <div class="xpContainer flex-column text-center">
+
+            <div class="xpBoxContainer d-flex justify-content-center" id="xpBox1">
+                <img class="xpImage m-3" src="assets/images/encriptador.png">
+                <div class="xpInfoContainer">
+                    <h2 class="xpTitulo text-center ">Encriptador de texto</h2>
+                    <h3 class="xpTexto text-center ">Challenge Oracle </h3>
+                    <div class="xpDescripcion ">
+                        <span class="xpRepositorio">
+                            <a href="https://github.com/SebastianGallego/challengeEncriptador" class="expBtnRepositorio"
+                                target="_blank">Repositorio <i class="fa-brands fa-github"></i></a>
+                        </span>
+                        <span class="xpDemo">
+                            <a href="https://challenge1-encriptador.netlify.app/" target="_blank" class="xpBtnDemo">Ver
+                                demo <i class="fa-solid fa-globe"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="xpBoxContainer d-flex justify-content-center flex-row-reverse " id="xpBox2">
+                <img class="xpImage mb-3" src="assets/images/barberia.png">
+                <div class="xpInfoContainer">
+                    <h2 class="xpTitulo mt-3">Barberia</h2>
+                    <h3 class="xpTexto mt-3">TP Alura </h3>
+                    <div class="xpDescripcion mt-4">
+                        <span class="xpRepositorio">
+                            <a href="https://github.com/SebastianGallego/barberia.github.io" target="_blank"
+                                class="expBtnRepositorio">Repositorio <i class="fa-brands fa-github"></i></a>
+                        </span>
+                        <span class="xpDemo">
+                            <a href="https://barberia-sg.netlify.app/" target="_blank" class="xpBtnDemo">Ver demo <i
+                                    class="fa-solid fa-globe"></i></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="xpBoxContainer d-flex justify-content-center" id="xpBox3">
+            <img class="xpImage mb-3" src="assets/images/ejemplosJs.png">
+            <div class="xpInfoContainer">
+                <h2 class="xpTitulo text-center mt-3">Ejemplos con Javascript</h2>
+                <h3 class="xpTexto text-center mt-3">Trabajo Práctico</h3>
+                <div class="xpDescripcion ">
+                    <span class="xpRepositorio">
+                        <a href="https://github.com/SebastianGallego/Ejemplo-Js" target="_blank"
+                            class="expBtnRepositorio">Repositorio
+                            <i class="fa-brands fa-github"></i></a>
+                    </span>
+                    <span class="xpDemo">
+                        <a href="https://ejemplos-varios-js.netlify.app/" target="_blank" class="xpBtnDemo">Ver demo <i
+                                class="fa-solid fa-globe"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="xpBoxContainer d-flex justify-content-center flex-row-reverse " id="xpBox4">
+            <img class="xpImage mb-3" src="assets/images/horca1.png">
+            <div class="xpInfoContainer">
+                <h2 class="xpTitulo text-center mt-3">Juego de la Horca</h2>
+                <h3 class="xpTexto text-center mt-3">TP Alura </h3>
+                <div class="xpDescripcion mt-4">
+                    <span class="xpRepositorio">
+                        <a href="" class="expBtnRepositorio">Repositorio <i class="fa-brands fa-github"></i></a>
+                    </span>
+                    <span class="xpDemo">
+                        <a href="" class="xpBtnDemo">Ver demo <i class="fa-solid fa-globe"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Sección de Contacto -->
+    <section class="seccionContacto d-flex justify-content-center" id="contacto">
+        <div class="contactoContainer d-flex text-center">
+            <div class="contactoContainerImagen">
+                <img class="contactoImagen" src="assets/images/contact_image.png">
+            </div>
+            <div class="contactoBox">
+                <h2 class="contatoTitulo">Formulario de Contacto</h2>
+                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                <form class="formcontato__form" name="form" method="post">
+                    <div>
+                        <input class="inputContactoNombre" id="idNombre" type="text" name="nombre"
+                            onkeyup="validateInput('idNombre')" onblur="validateInput('idNombre')" placeholder="Nombre"
+                            maxlength="50" required><br>
+                        <span id="errorMensajeidNombre" style="color: red;"></span>
+                    </div>
+                    <div>
+                        <input class="inputContactoEmail" id="idEmail" type="email" name="email"
+                            onkeyup="validateInput('idEmail')" onblur="validateInput('idEmail')" placeholder="E-mail"
+                            required><br>
+                        <span id="errorMensajeidEmail" style="color: red;"></span>
+                    </div>
+                    <div>
+                        <input class="inputContactoAsunto" id="idAsunto" type="text" name="asunto"
+                            onkeyup="validateInput('idAsunto')" onblur="validateInput('idAsunto')" maxlength="50"
+                            placeholder="Asunto" required><br>
+                        <span id="errorMensajeidAsunto" style="color: red;"></span>
+                    </div>
+                    <div>
+                        <textarea class="inputContactoMensaje" rows="5" cols="40" id="idMensaje" name="mensaje"
+                            placeholder="Mensaje" onkeyup="validateInput('idMensaje')"
+                            onblur="validateInput('idMensaje')" maxlength="300" required></textarea>
+
+                        <br>
+                        <span id="errorMensajeidMensaje" style="color: red;"></span>
+                    </div>
+                    <button type="submit" id="btnEnviar" class="btnEnviar" disabled>Enviar
+                        mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Footer -->
+    <section class="footer">
+        <div class="footerAutor text-center">
+            <p>Sebastián Gallego</p>
+            <p>© 2023</p>
+        </div>
+    </section>
+    </div>
+
+    <!-- Script del documento JavaScript -->
+    <script src="assets/js/validacion.js"></script>
+</body>
+
+</html>
