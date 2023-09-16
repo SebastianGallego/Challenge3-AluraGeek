@@ -4,6 +4,7 @@
   --bkgGris: #f5f5f5;
   --celesteOscuro: #2a7ae4;
   --celesteClaro: #eaf2fd;
+  --blanco: #ffffff;
 }
 
 * {
@@ -12,21 +13,24 @@
   font-weight: 400;
 }
 
+/* HEADER - NAV */
 header {
-  max-width: var(--max-width-container);
-  width: 100%;
-  margin: 0 auto;
-  padding: 32px 0;
   display: flex;
-  justify-content: space-between;
+  padding: 32px 0;
 }
 
 header .sectionNav {
   display: flex;
+  justify-content: space-between;
+  width: var(--max-width-container);
+  margin: 0 auto;
+  padding: 32px 0;
+  background-color: var(--blanco);
+}
+
+header .logoYBusqueda {
+  display: flex;
   align-items: center;
-  gap: 32px;
-  width: 100%;
-  max-width: 601px;
 }
 
 header .barraBusqueda {
@@ -36,8 +40,8 @@ header .barraBusqueda {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  width: 100%;
+  width: 400px;
+  margin-left: 20px;
 }
 
 header .inputBuscar {
@@ -54,17 +58,140 @@ header .btnBuscar {
 }
 
 header .login {
-  border: 1px solid var(--celesteOscuro, #2a7ae4);
-  color: var(--celesteOscuro, #2a7ae4);
+  border: 1px solid var(--celesteOscuro);
+  color: var(--celesteOscuro);
   padding: 16px;
   background: none;
   width: 100%;
-  max-width: 150px;
+  max-width: 182px;
   font-size: 16px;
 }
 
-/*Renponsive
-/*Escritorio*/
+/* BANNER */
+.sectionBanner {
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 352px;
+  color: var(--blanco);
+  padding: 32px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.bannerTexto {
+  width: 100%;
+  max-width: var(--max-width-container);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 16px;
+}
+
+.bannerTexto h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+
+.bannerTexto p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.bannerTexto button {
+  background-color: var(--celesteOscuro);
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  color: var(--blanco);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* PRODUCTOS    */
+.sectionProductos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 64px 0;
+  gap: 64px;
+}
+
+.lineaArticulos {
+  width: 100%;
+  max-width: var(--max-width-container);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.articulosTitulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.articulosTitulo h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.articulosTitulo button {
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 8px;
+}
+
+.articulosTitulo p {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--azul-100, #2a7ae4);
+}
+
+.listaArticulos {
+  display: flex;
+  gap: 16px;
+}
+
+.articulosProducto {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.articulosProducto img {
+  width: 176px;
+  height: 174px;
+}
+
+.articulosProducto h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.articulosProducto p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.articulosProducto button {
+  border: none;
+  background: none;
+  color: var(--azul-100, #2a7ae4);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/*   Renponsive   */
+/*   Escritorio   */
 
 @media (max-width: 1200px) {
 }
